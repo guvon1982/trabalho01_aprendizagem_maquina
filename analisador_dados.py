@@ -1,18 +1,10 @@
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import webbrowser  # Importando o módulo webbrowser
 
 def carregar_dados():
-    """
-    Carrega dados de um arquivo CSV ou JSON para um DataFrame do Pandas.
-
-    Pergunta ao usuário o caminho do arquivo e tenta carregá-lo.
-    Suporta arquivos nos formatos CSV e JSON.
-
-    Returns:
-        pandas.DataFrame or None: Um DataFrame contendo os dados carregados,
-                                     ou None se ocorrer algum erro.
-    """
+    # ... (seu código de carregar_dados permanece o mesmo)
     while True:
         caminho_arquivo = input("Por favor, digite o caminho do arquivo (CSV ou JSON): ")
         if not os.path.exists(caminho_arquivo):
@@ -39,15 +31,7 @@ def carregar_dados():
         return None
 
 def analisar_dados_basico(df):
-    """
-    Realiza uma análise básica do DataFrame fornecido.
-
-    Exibe a quantidade total de dados, a distribuição por gênero
-    e a quantidade de registros sem informação sobre a educação dos pais.
-
-    Args:
-        df (pandas.DataFrame): O DataFrame a ser analisado.
-    """
+    # ... (seu código de analisar_dados_basico permanece o mesmo)
     if df is not None:
         total_registros = len(df)
         quantidade_generos = df['Gender'].value_counts()
@@ -62,18 +46,7 @@ def analisar_dados_basico(df):
         print("Erro: Nenhum dado carregado para analisar.")
 
 def limpar_dados(df):
-    """
-    Realiza a limpeza dos dados do DataFrame.
-
-    Remove registros com valores nulos na coluna 'Parent_Education_Level'
-    e preenche valores nulos na coluna 'Attendance (%)' com a mediana.
-
-    Args:
-        df (pandas.DataFrame): O DataFrame a ser limpo.
-
-    Returns:
-        pandas.DataFrame: O DataFrame com os dados limpos.
-    """
+    # ... (seu código de limpar_dados permanece o mesmo)
     if df is not None:
         df_limpo = df.dropna(subset=['Parent_Education_Level']).copy()
         print(f"\nRegistros removidos devido à falta de informação na educação dos pais: {len(df) - len(df_limpo)}")
@@ -91,16 +64,7 @@ def limpar_dados(df):
         return None
 
 def consultar_dados_coluna(df):
-    """
-    Permite ao usuário consultar estatísticas de uma coluna numérica específica do DataFrame
-    selecionando por número. Reexibe as opções em caso de erro.
-
-    Lista as colunas numéricas disponíveis com um número correspondente e solicita
-    ao usuário o número da coluna para análise. Calcula e exibe as estatísticas.
-
-    Args:
-        df (pandas.DataFrame): O DataFrame para consulta.
-    """
+    # ... (seu código de consultar_dados_coluna permanece o mesmo)
     if df is not None:
         colunas_numericas = [col for col in df.columns if pd.api.types.is_numeric_dtype(df[col])]
         if not colunas_numericas:
@@ -133,12 +97,7 @@ def consultar_dados_coluna(df):
         print("Erro: Nenhum dado carregado para realizar a consulta.")
 
 def gerar_grafico_dispersao(df):
-    """
-    Gera um gráfico de dispersão entre as horas de sono e a nota final.
-
-    Args:
-        df (pandas.DataFrame): O DataFrame contendo os dados.
-    """
+    # ... (seu código de gerar_grafico_dispersao permanece o mesmo)
     if df is not None and 'Sleep_Hours_per_Night' in df.columns and 'Final_Score' in df.columns:
         plt.figure(figsize=(10, 6))
         plt.scatter(df['Sleep_Hours_per_Night'], df['Final_Score'])
@@ -151,12 +110,7 @@ def gerar_grafico_dispersao(df):
         print("Erro: Colunas 'Sleep_Hours_per_Night' ou 'Final_Score' não encontradas para o gráfico de dispersão.")
 
 def gerar_grafico_barras_idade_media_nota(df):
-    """
-    Gera um gráfico de barras da idade versus a média das notas intermediárias (midterm_Score).
-
-    Args:
-        df (pandas.DataFrame): O DataFrame contendo os dados.
-    """
+    # ... (seu código de gerar_grafico_barras_idade_media_nota permanece o mesmo)
     if df is not None and 'Age' in df.columns and 'Midterm_Score' in df.columns:
         media_notas_por_idade = df.groupby('Age')['Midterm_Score'].mean().sort_index()
         plt.figure(figsize=(10, 6))
@@ -171,14 +125,7 @@ def gerar_grafico_barras_idade_media_nota(df):
         print("Erro: Colunas 'Age' ou 'Midterm_Score' não encontradas para o gráfico de barras.")
 
 def gerar_grafico_pizza_idades(df):
-    """
-    Gera um gráfico de pizza para a distribuição das idades em grupos.
-
-    Grupos de idade: até 17; 18 a 21; 22 a 24; 25 ou mais.
-
-    Args:
-        df (pandas.DataFrame): O DataFrame contendo os dados.
-    """
+    # ... (seu código de gerar_grafico_pizza_idades permanece o mesmo)
     if df is not None and 'Age' in df.columns:
         bins = [0, 17, 21, 24, float('inf')]
         labels = ['Até 17', '18 a 21', '22 a 24', '25 ou mais']
@@ -193,12 +140,7 @@ def gerar_grafico_pizza_idades(df):
         print("Erro: Coluna 'Age' não encontrada para o gráfico de pizza.")
 
 def gerar_graficos(df):
-    """
-    Apresenta um menu para o usuário escolher qual gráfico gerar.
-
-    Args:
-        df (pandas.DataFrame): O DataFrame contendo os dados.
-    """
+    # ... (seu código de gerar_graficos permanece o mesmo)
     if df is not None:
         while True:
             print("\n--- Opções de Gráficos ---")
@@ -222,6 +164,14 @@ def gerar_graficos(df):
     else:
         print("Erro: Nenhum dado carregado para gerar gráficos.")
 
+def abrir_documentacao_html():
+    """Abre a página index.html da documentação no navegador Chrome."""
+    caminho_documentacao = os.path.abspath("_build/index.html")
+    # Registra o Chrome - ajuste o caminho se necessário
+    webbrowser.register('chrome', None, webbrowser.BackgroundBrowser("C:/Program Files/Google/Chrome/Application/chrome.exe"))
+    webbrowser.get('chrome').open_new_tab(caminho_documentacao)
+    print(f"\nAbrindo documentação em: {caminho_documentacao}")
+
 if __name__ == '__main__':
     dados = carregar_dados()
     if dados is not None:
@@ -237,6 +187,7 @@ if __name__ == '__main__':
                 print("\n--- Menu Principal ---")
                 print("1. Consultar dados por coluna")
                 print("2. Gerar gráficos")
+                print("3. Abrir documentação")  # Agora no menu principal
                 print("0. Encerrar o programa")
 
                 opcao_principal = input("Digite o número da opção desejada: ")
@@ -245,6 +196,8 @@ if __name__ == '__main__':
                     consultar_dados_coluna(dados_limpos)
                 elif opcao_principal == '2':
                     gerar_graficos(dados_limpos)
+                elif opcao_principal == '3':
+                    abrir_documentacao_html()  # Chama a função para abrir a documentação
                 elif opcao_principal == '0':
                     print("Encerrando o programa.")
                     break
