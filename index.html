@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .log-container {
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 4px;
+            white-space: pre-wrap; /* Mantém a formatação do log */
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Analisador de Dados</h1>
+
+    <div class="container" id="carregamento">
+        <h2>Carregamento de Dados</h2>
+        <p id="arquivo-carregado"></p>
+    </div>
+
+    <div class="container" id="analise-basica">
+        <h2>Análise Básica dos Dados</h2>
+        <p>Total de registros: <span id="total-registros"></span></p>
+        <h3>Distribuição por Gênero:</h3>
+        <ul id="distribuicao-genero"></ul>
+        <p>Registros sem informação de educação dos pais: <span id="sem-educacao-pais"></span></p>
+    </div>
+
+    <div class="container" id="limpeza-dados">
+        <h2>Limpeza de Dados</h2>
+        <p>Registros removidos por falta de informação na educação dos pais: <span id="registros-removidos"></span></p>
+        <p>Valores nulos em 'Attendance (%)' preenchidos com a mediana: <span id="attendance-mediana"></span></p>
+        <p>Somatório de 'Attendance (%)': <span id="attendance-soma"></span></p>
+    </div>
+
+    <div class="container" id="genero-apos-limpeza">
+        <h2>Distribuição de Gênero Após Limpeza</h2>
+        <ul id="distribuicao-genero-limpo"></ul>
+    </div>
+
+    <div class="container" id="logs">
+        <h2>Logs de Ações</h2>
+        <div class="log-container" id="conteudo-logs">
+            </div>
+    </div>
+
+    <script>
+        // O código JavaScript para buscar os dados do Python será adicionado aqui
+    </script>
+</body>
+</html>
