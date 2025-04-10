@@ -1,0 +1,150 @@
+[2025-04-10 15:44:00] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 15:44:07] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 15:44:07] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 15:44:07] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 15:44:07] Usuário: Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 15:44:07] Usuário: Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 15:44:07] Usuário: Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 15:44:10] Usuário: Teste - Ação: Menu principal: selecionou opção '1'.
+[2025-04-10 15:46:55] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 15:46:59] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 15:46:59] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 15:46:59] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 15:46:59] Usuário: Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 15:46:59] Usuário: Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 15:46:59] Usuário: Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 15:47:01] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 15:47:03] Usuário: Teste - Ação: Selecionou opção '12' para consultar dados por coluna.
+[2025-04-10 15:47:03] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Sleep_Hours_per_Night'. Média: 6.51, Mediana: 6.50, Moda: [4.8], Desvio Padrão: 1.44
+[2025-04-10 15:47:10] Usuário: Teste - Ação: Selecionou opção '8' para consultar dados por coluna.
+[2025-04-10 15:47:10] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Projects_Score'. Média: 74.73, Mediana: 74.42, Moda: [61.41, 64.25], Desvio Padrão: 14.46
+[2025-04-10 15:47:14] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 15:47:16] Usuário: Teste - Ação: Menu principal: 2
+[2025-04-10 15:47:19] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 15:49:14] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 15:49:16] Usuário: Teste - Ação: Menu principal: 0
+[2025-04-10 15:49:18] Usuário: Teste - Ação: Menu principal: 0
+[2025-04-10 15:49:40] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 15:49:50] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 15:49:50] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 15:49:50] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 15:49:50] Usuário: Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 15:49:50] Usuário: Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 15:49:50] Usuário: Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 15:50:12] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 15:50:14] Usuário: Teste - Ação: Selecionou opção '4' para consultar dados por coluna.
+[2025-04-10 15:50:14] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Final_Score'. Média: 69.57, Mediana: 69.38, Moda: [44.44], Desvio Padrão: 17.14
+[2025-04-10 15:50:19] Usuário: Teste - Ação: Selecionou opção '11' para consultar dados por coluna.
+[2025-04-10 15:50:19] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Stress_Level (1-10)'. Média: 5.50, Mediana: 6.00, Moda: [1], Desvio Padrão: 2.89
+[2025-04-10 15:50:22] Usuário: Teste - Ação: Selecionou opção '12' para consultar dados por coluna.
+[2025-04-10 15:50:22] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Sleep_Hours_per_Night'. Média: 6.51, Mediana: 6.50, Moda: [4.8], Desvio Padrão: 1.44
+[2025-04-10 15:50:24] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 15:50:35] Usuário: Teste - Ação: Menu principal: 2
+[2025-04-10 15:50:39] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-10 15:50:42] Usuário: Teste - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-10 15:50:44] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '2'.
+[2025-04-10 15:50:46] Usuário: Teste - Ação: Gerou gráfico de barras (Idade vs. Média das Notas Intermediárias).
+[2025-04-10 15:50:48] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '3'.
+[2025-04-10 15:50:50] Usuário: Teste - Ação: Gerou gráfico de pizza (Distribuição das Idades).
+[2025-04-10 15:50:54] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-10 15:50:56] Usuário: Teste - Ação: Menu principal: 3
+[2025-04-10 15:50:56] Usuário: Teste - Ação: Abriu a página de documentação.
+[2025-04-10 15:51:03] Usuário: Teste - Ação: Menu principal: 0
+[2025-04-10 15:51:03] Usuário: Teste - Ação: Encerrou o programa.
+[2025-04-10 15:59:43] Usuário: Teste GUvon - Ação: Iniciou o programa.
+[2025-04-10 15:59:57] Usuário: Teste GUvon - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 15:59:58] Usuário: Teste GUvon - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 15:59:58] Usuário: Teste GUvon - Ação: Realizou análise básica dos dados.
+[2025-04-10 15:59:58] Usuário: Teste GUvon - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 15:59:58] Usuário: Teste GUvon - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 15:59:58] Usuário: Teste GUvon - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 16:00:25] Usuário: GUvon Teste - Ação: Iniciou o programa.
+[2025-04-10 16:00:28] Usuário: GUvon Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 16:00:28] Usuário: GUvon Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 16:00:28] Usuário: GUvon Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 16:00:28] Usuário: GUvon Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 16:00:28] Usuário: GUvon Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 16:00:28] Usuário: GUvon Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 16:01:29] Usuário: GUvon Teste - Ação: Menu principal: 1
+[2025-04-10 16:01:31] Usuário: GUvon Teste - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-10 16:01:31] Usuário: GUvon Teste - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-10 16:01:36] Usuário: GUvon Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 16:01:37] Usuário: GUvon Teste - Ação: Menu principal: 2
+[2025-04-10 16:01:41] Usuário: GUvon Teste - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-10 16:01:43] Usuário: GUvon Teste - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-10 16:01:45] Usuário: GUvon Teste - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-10 16:01:47] Usuário: GUvon Teste - Ação: Menu principal: 4
+[2025-04-10 16:02:30] Usuário: GUvon Teste - Ação: Menu principal: 3
+[2025-04-10 16:02:30] Usuário: GUvon Teste - Ação: Abriu a página de documentação.
+[2025-04-10 16:05:30] Usuário: GUvon Teste - Ação: Menu principal: 0
+[2025-04-10 16:05:30] Usuário: GUvon Teste - Ação: Encerrou o programa.
+[2025-04-10 16:06:05] Usuário: Teste GUvon - Ação: Iniciou o programa.
+[2025-04-10 16:06:10] Usuário: Teste GUvon - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 16:06:10] Usuário: Teste GUvon - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 16:06:10] Usuário: Teste GUvon - Ação: Realizou análise básica dos dados.
+[2025-04-10 16:06:10] Usuário: Teste GUvon - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 16:06:10] Usuário: Teste GUvon - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 16:06:10] Usuário: Teste GUvon - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 16:09:29] Usuário: Teste GUvon - Ação: Menu principal: 0
+[2025-04-10 16:09:29] Usuário: Teste GUvon - Ação: Encerrou o programa.
+[2025-04-10 16:09:37] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 16:09:41] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 16:09:41] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 16:09:41] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 16:09:41] Usuário: Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 16:09:41] Usuário: Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 16:09:41] Usuário: Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 16:10:58] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 16:11:00] Usuário: Teste - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-10 16:11:00] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-10 16:11:03] Usuário: Teste - Ação: Selecionou opção '2' para consultar dados por coluna.
+[2025-04-10 16:11:03] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Attendance (%)'. Média: 75.28, Mediana: 75.57, Moda: [53.1, 68.56, 71.16, 71.37, 73.58, 75.2, 88.93, 91.13, 96.54], Desvio Padrão: 14.46
+[2025-04-10 16:11:06] Usuário: Teste - Ação: Selecionou opção '3' para consultar dados por coluna.
+[2025-04-10 16:11:06] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Midterm_Score'. Média: 70.71, Mediana: 70.83, Moda: [51.46, 53.13, 99.13], Desvio Padrão: 17.37
+[2025-04-10 16:11:08] Usuário: Teste - Ação: Selecionou opção '4' para consultar dados por coluna.
+[2025-04-10 16:11:08] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Final_Score'. Média: 69.57, Mediana: 69.38, Moda: [44.44], Desvio Padrão: 17.14
+[2025-04-10 16:11:14] Usuário: Teste - Ação: Selecionou opção '5' para consultar dados por coluna.
+[2025-04-10 16:11:14] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Assignments_Avg'. Média: 75.00, Mediana: 75.10, Moda: [54.95, 60.76, 74.29, 77.34, 83.02], Desvio Padrão: 14.34
+[2025-04-10 16:11:19] Usuário: Teste - Ação: Selecionou opção '' para consultar dados por coluna.
+[2025-04-10 16:11:20] Usuário: Teste - Ação: Selecionou opção '' para consultar dados por coluna.
+[2025-04-10 16:11:20] Usuário: Teste - Ação: Selecionou opção '' para consultar dados por coluna.
+[2025-04-10 16:11:21] Usuário: Teste - Ação: Selecionou opção '' para consultar dados por coluna.
+[2025-04-10 16:11:22] Usuário: Teste - Ação: Selecionou opção '' para consultar dados por coluna.
+[2025-04-10 16:11:22] Usuário: Teste - Ação: Selecionou opção '' para consultar dados por coluna.
+[2025-04-10 16:11:30] Usuário: Teste - Ação: Selecionou opção '5' para consultar dados por coluna.
+[2025-04-10 16:11:30] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Assignments_Avg'. Média: 75.00, Mediana: 75.10, Moda: [54.95, 60.76, 74.29, 77.34, 83.02], Desvio Padrão: 14.34
+[2025-04-10 16:11:34] Usuário: Teste - Ação: Selecionou opção '6' para consultar dados por coluna.
+[2025-04-10 16:11:34] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Quizzes_Avg'. Média: 74.76, Mediana: 74.79, Moda: [95.23], Desvio Padrão: 14.39
+[2025-04-10 16:11:37] Usuário: Teste - Ação: Selecionou opção '7' para consultar dados por coluna.
+[2025-04-10 16:11:37] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Participation_Score'. Média: 5.05, Mediana: 5.03, Moda: [6.14, 7.88, 9.96], Desvio Padrão: 2.92
+[2025-04-10 16:11:43] Usuário: Teste - Ação: Selecionou opção '8' para consultar dados por coluna.
+[2025-04-10 16:11:43] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Projects_Score'. Média: 74.73, Mediana: 74.42, Moda: [61.41, 64.25], Desvio Padrão: 14.46
+[2025-04-10 16:11:47] Usuário: Teste - Ação: Selecionou opção '9' para consultar dados por coluna.
+[2025-04-10 16:11:47] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Total_Score'. Média: 74.96, Mediana: 75.19, Moda: [51.99, 85.03], Desvio Padrão: 14.36
+[2025-04-10 16:11:51] Usuário: Teste - Ação: Selecionou opção '10' para consultar dados por coluna.
+[2025-04-10 16:11:51] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Study_Hours_per_Week'. Média: 17.57, Mediana: 17.50, Moda: [13.0], Desvio Padrão: 7.21
+[2025-04-10 16:11:55] Usuário: Teste - Ação: Selecionou opção '11' para consultar dados por coluna.
+[2025-04-10 16:11:55] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Stress_Level (1-10)'. Média: 5.50, Mediana: 6.00, Moda: [1], Desvio Padrão: 2.89
+[2025-04-10 16:12:02] Usuário: Teste - Ação: Selecionou opção '12' para consultar dados por coluna.
+[2025-04-10 16:12:02] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Sleep_Hours_per_Night'. Média: 6.51, Mediana: 6.50, Moda: [4.8], Desvio Padrão: 1.44
+[2025-04-10 16:12:08] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 16:12:14] Usuário: Teste - Ação: Menu principal: 2
+[2025-04-10 16:12:16] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-10 16:12:18] Usuário: Teste - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-10 16:12:20] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '2'.
+[2025-04-10 16:12:23] Usuário: Teste - Ação: Gerou gráfico de barras (Idade vs. Média das Notas Intermediárias).
+[2025-04-10 16:12:25] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '3'.
+[2025-04-10 16:12:27] Usuário: Teste - Ação: Gerou gráfico de pizza (Distribuição das Idades).
+[2025-04-10 16:12:29] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-10 16:12:30] Usuário: Teste - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-10 16:12:32] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '11'.
+[2025-04-10 16:12:36] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-10 16:12:37] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 16:12:39] Usuário: Teste - Ação: Selecionou opção '00' para consultar dados por coluna.
+[2025-04-10 16:12:43] Usuário: Teste - Ação: Selecionou opção '111' para consultar dados por coluna.
+[2025-04-10 16:12:45] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 16:12:47] Usuário: Teste - Ação: Menu principal: 3
+[2025-04-10 16:12:47] Usuário: Teste - Ação: Abriu a página de documentação.
+[2025-04-10 16:12:52] Usuário: Teste - Ação: Menu principal: 4
+[2025-04-10 16:13:21] Usuário: Teste - Ação: Menu principal: 0
+[2025-04-10 16:13:21] Usuário: Teste - Ação: Encerrou o programa.
