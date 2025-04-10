@@ -148,3 +148,27 @@
 [2025-04-10 16:12:52] Usuário: Teste - Ação: Menu principal: 4
 [2025-04-10 16:13:21] Usuário: Teste - Ação: Menu principal: 0
 [2025-04-10 16:13:21] Usuário: Teste - Ação: Encerrou o programa.
+[2025-04-10 16:43:18] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 16:43:29] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 16:43:29] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 16:47:55] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 16:49:17] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 16:49:26] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 16:49:26] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 16:49:26] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 16:49:26] Usuário: Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 16:49:26] Usuário: Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 16:49:26] Usuário: Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 16:49:51] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 16:49:52] Usuário: Teste - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-10 16:49:52] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-10 16:49:54] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 16:49:56] Usuário: Teste - Ação: Menu principal: 2
+[2025-04-10 16:49:57] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-10 16:49:59] Usuário: Teste - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-10 16:50:03] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-10 16:50:06] Usuário: Teste - Ação: Menu principal: 3
+[2025-04-10 16:50:06] Usuário: Teste - Ação: Abriu a página de documentação.
+[2025-04-10 16:50:11] Usuário: Teste - Ação: Menu principal: 4
+[2025-04-10 16:50:35] Usuário: Teste - Ação: Menu principal: 0
+[2025-04-10 16:50:35] Usuário: Teste - Ação: Encerrou o programa.
