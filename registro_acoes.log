@@ -172,3 +172,210 @@
 [2025-04-10 16:50:11] Usuário: Teste - Ação: Menu principal: 4
 [2025-04-10 16:50:35] Usuário: Teste - Ação: Menu principal: 0
 [2025-04-10 16:50:35] Usuário: Teste - Ação: Encerrou o programa.
+[2025-04-10 17:29:48] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:29:49] Usuário: Gustavo von Sperling - Ação: Visualizou análise básica
+[2025-04-10 17:29:49] Usuário: Gustavo von Sperling - Ação: Limpou dados
+[2025-04-10 17:29:50] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de dispersão
+[2025-04-10 17:32:52] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:32:52] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:32:52] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 17:33:15] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:33:15] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:33:15] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 17:33:15] Usuário: Teste - Ação: Exportou dados e estatísticas.
+[2025-04-10 17:35:35] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:35:35] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:35:35] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 17:35:51] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:35:51] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:35:51] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 17:35:51] Usuário: Teste - Ação: Exportou dados e estatísticas.
+[2025-04-10 17:35:58] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:35:58] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:35:59] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 17:35:59] Usuário: Teste - Ação: Abriu a documentação.
+[2025-04-10 17:36:04] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:36:04] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:36:04] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 17:36:10] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 17:36:10] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 17:36:10] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 22:51:22] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 22:51:22] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 22:51:22] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 22:59:39] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 22:59:47] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 22:59:47] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 22:59:47] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 22:59:47] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:04:42] Usuário: Teste - Ação: Selecionou menu: 0
+[2025-04-10 23:04:42] Usuário: Teste - Ação: Encerrou o programa.
+[2025-04-10 23:05:06] Usuário: Teste - Ação: Iniciou o programa.
+[2025-04-10 23:05:11] Usuário: Teste - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-10 23:05:11] Usuário: Teste - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-10 23:05:12] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:05:12] Usuário: Teste - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-10 23:05:12] Usuário: Teste - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-10 23:05:12] Usuário: Teste - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-10 23:07:33] Usuário: Teste - Ação: Menu principal: 1
+[2025-04-10 23:08:00] Usuário: Teste - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-10 23:08:00] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-10 23:10:05] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:10:05] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:10:05] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:10:33] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:10:33] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:10:33] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:10:33] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Age'.
+[2025-04-10 23:10:40] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:10:40] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:10:40] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:10:40] Usuário: Teste - Ação: Consultou estatísticas da coluna 'Projects_Score'.
+[2025-04-10 23:10:46] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:10:46] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:10:46] Usuário: Teste - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:10:46] Usuário: Teste - Ação: Visualizou gráfico de dispersão
+[2025-04-10 23:10:56] Usuário: Teste - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-10 23:11:03] Usuário: Teste - Ação: Menu principal: 2
+[2025-04-10 23:13:00] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:13:00] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:13:00] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:13:11] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:13:11] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:13:11] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:13:14] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:13:14] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:13:14] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:13:14] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de dispersão
+[2025-04-10 23:13:20] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:13:20] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:13:20] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:13:20] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de barras idade vs nota intermediária
+[2025-04-10 23:13:25] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:13:25] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:13:25] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:13:25] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de pizza da distribuição das idades
+[2025-04-10 23:13:31] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:13:31] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:13:31] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:14:31] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:14:31] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:14:31] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:14:31] Usuário: Gustavo von Sperling - Ação: Abriu a documentação.
+[2025-04-10 23:15:15] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:15:15] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:15:15] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:17:42] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:17:42] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:17:42] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:18:05] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:18:05] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:18:05] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:18:15] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:18:15] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:18:15] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:22:34] Usuário: Teste - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:22:34] Usuário: Teste - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:24:14] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:24:14] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:24:14] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:26:47] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:26:47] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:26:47] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:26:58] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:26:58] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:26:58] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:27:07] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:27:07] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:27:07] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:27:08] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de dispersão
+[2025-04-10 23:27:13] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:27:13] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:27:13] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:27:13] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de pizza da distribuição das idades
+[2025-04-10 23:27:15] Usuário: Gustavo von Sperling - Ação: Carregou arquivo: Students_Grading_Dataset.csv
+[2025-04-10 23:27:15] Usuário: Gustavo von Sperling - Ação: Realizou análise básica dos dados.
+[2025-04-10 23:27:15] Usuário: Gustavo von Sperling - Ação: Limpou dados. Removidos: 1025, Preenchidos: 0
+[2025-04-10 23:27:15] Usuário: Gustavo von Sperling - Ação: Visualizou gráfico de barras idade vs nota intermediária
+[2025-04-10 23:29:34] Usuário: Teste - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-10 23:29:37] Usuário: Teste - Ação: Menu principal: 0
+[2025-04-10 23:29:37] Usuário: Teste - Ação: Encerrou o programa.
+[2025-04-11 11:36:58] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:37:37] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:37:41] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:37:51] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:39:03] Usuário: Gustavo - Ação: Iniciou o programa.
+[2025-04-11 11:39:11] Usuário: Gustavo - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-11 11:39:11] Usuário: Gustavo - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-11 11:39:11] Usuário: Gustavo - Ação: Realizou análise básica dos dados.
+[2025-04-11 11:39:11] Usuário: Gustavo - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-11 11:39:11] Usuário: Gustavo - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-11 11:39:11] Usuário: Gustavo - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-11 11:39:18] Usuário: Gustavo - Ação: Menu principal: 1
+[2025-04-11 11:39:20] Usuário: Gustavo - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-11 11:39:20] Usuário: Gustavo - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-11 11:39:27] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:39:41] Usuário: Gustavo - Ação: Selecionou opção '2' para consultar dados por coluna.
+[2025-04-11 11:39:41] Usuário: Gustavo - Ação: Consultou estatísticas da coluna 'Attendance (%)'. Média: 75.28, Mediana: 75.57, Moda: [53.1, 68.56, 71.16, 71.37, 73.58, 75.2, 88.93, 91.13, 96.54], Desvio Padrão: 14.46
+[2025-04-11 11:39:57] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:04] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:06] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:09] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:09] Usuário: Gustavo von Sperling - Ação: Visualizou todos os gráficos em conjunto
+[2025-04-11 11:40:16] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:38] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:44] Usuário: Gustavo von Sperling - Ação: Carregou o arquivo de dados
+[2025-04-11 11:40:44] Usuário: Gustavo von Sperling - Ação: Abriu a documentação
+[2025-04-11 11:47:25] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:47:37] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:47:37] Usuário: Teste - Ação: Abriu a documentação
+[2025-04-11 11:47:43] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:47:46] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:47:48] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:47:51] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:47:51] Usuário: Teste - Ação: Visualizou todos os gráficos em conjunto
+[2025-04-11 11:47:59] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:48:03] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:51:09] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 11:57:55] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 11:59:38] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:01:07] Usuário: Guvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:02:03] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:04:10] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:12:55] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:13:01] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:13:08] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:13:12] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:13:15] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:13:19] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:14:03] Usuário: Gustavo - Ação: Carregou o arquivo de dados
+[2025-04-11 12:18:19] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 12:18:28] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 12:18:56] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 12:19:00] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 12:19:04] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 12:19:13] Usuário: Teste - Ação: Carregou o arquivo de dados
+[2025-04-11 12:21:03] Usuário: Gustavo - Ação: Iniciou o programa.
+[2025-04-11 12:21:13] Usuário: Gustavo - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-11 12:21:13] Usuário: Gustavo - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-11 12:21:13] Usuário: Gustavo - Ação: Realizou análise básica dos dados.
+[2025-04-11 12:21:13] Usuário: Gustavo - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-11 12:21:13] Usuário: Gustavo - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-11 12:21:13] Usuário: Gustavo - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-11 12:21:43] Usuário: Gustavo - Ação: Menu principal: 1
+[2025-04-11 12:21:45] Usuário: Gustavo - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-11 12:21:45] Usuário: Gustavo - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-11 12:21:49] Usuário: Gustavo - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-11 12:21:54] Usuário: Gustavo - Ação: Menu principal: 2
+[2025-04-11 12:21:57] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-11 12:22:00] Usuário: Gustavo - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-11 12:22:03] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '3'.
+[2025-04-11 12:22:06] Usuário: Gustavo - Ação: Gerou gráfico de pizza (Distribuição das Idades).
+[2025-04-11 12:22:07] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '2'.
+[2025-04-11 12:22:09] Usuário: Gustavo - Ação: Gerou gráfico de barras (Idade vs. Média das Notas Intermediárias).
+[2025-04-11 12:22:11] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-11 12:22:15] Usuário: Gustavo - Ação: Menu principal: 3
+[2025-04-11 12:22:15] Usuário: Gustavo - Ação: Abriu a página de documentação.
+[2025-04-11 12:22:22] Usuário: Gustavo - Ação: Menu principal: 4
+[2025-04-11 12:22:26] Usuário: Gustavo - Ação: Menu principal: 0
+[2025-04-11 12:22:26] Usuário: Gustavo - Ação: Encerrou o programa.
