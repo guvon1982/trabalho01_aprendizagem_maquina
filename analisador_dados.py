@@ -240,7 +240,7 @@ def gerar_grafico_pizza_idades(df):
         O DataFrame contendo os dados.
     """
     if df is not None and 'Age' in df.columns:
-        bins = [0, 17, 21, 24, float('inf')]
+        bins = [0, 18, 22, 25, float('inf')]
         labels = ['Até 17', '18 a 21', '22 a 24', '25 ou mais']
         df['Grupo_Idade'] = pd.cut(df['Age'], bins=bins, labels=labels, right=False)
         distribuicao_idades = df['Grupo_Idade'].value_counts()

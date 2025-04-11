@@ -379,3 +379,52 @@
 [2025-04-11 12:22:22] Usuário: Gustavo - Ação: Menu principal: 4
 [2025-04-11 12:22:26] Usuário: Gustavo - Ação: Menu principal: 0
 [2025-04-11 12:22:26] Usuário: Gustavo - Ação: Encerrou o programa.
+[2025-04-11 12:34:14] Usuário: Gustavo - Ação: Iniciou o programa.
+[2025-04-11 12:34:21] Usuário: Gustavo - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-11 12:34:21] Usuário: Gustavo - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-11 12:34:21] Usuário: Gustavo - Ação: Realizou análise básica dos dados.
+[2025-04-11 12:34:21] Usuário: Gustavo - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-11 12:34:21] Usuário: Gustavo - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-11 12:34:21] Usuário: Gustavo - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-11 12:35:28] Usuário: Gustavo - Ação: Menu principal: 1
+[2025-04-11 12:35:38] Usuário: Gustavo - Ação: Selecionou opção '8' para consultar dados por coluna.
+[2025-04-11 12:35:38] Usuário: Gustavo - Ação: Consultou estatísticas da coluna 'Projects_Score'. Média: 74.73, Mediana: 74.42, Moda: [61.41, 64.25], Desvio Padrão: 14.46
+[2025-04-11 12:35:49] Usuário: Gustavo - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-11 12:35:49] Usuário: Gustavo - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-11 12:35:54] Usuário: Gustavo - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-11 12:35:58] Usuário: Gustavo - Ação: Menu principal: 2
+[2025-04-11 12:36:03] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-11 12:36:07] Usuário: Gustavo - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-11 12:36:09] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '2'.
+[2025-04-11 12:36:14] Usuário: Gustavo - Ação: Gerou gráfico de barras (Idade vs. Média das Notas Intermediárias).
+[2025-04-11 12:36:15] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '3'.
+[2025-04-11 12:36:19] Usuário: Gustavo - Ação: Gerou gráfico de pizza (Distribuição das Idades).
+[2025-04-11 12:36:22] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '1111'.
+[2025-04-11 12:36:26] Usuário: Gustavo - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-11 12:36:29] Usuário: Gustavo - Ação: Menu principal: 3
+[2025-04-11 12:36:29] Usuário: Gustavo - Ação: Abriu a página de documentação.
+[2025-04-11 12:36:41] Usuário: Gustavo - Ação: Menu principal: 4
+[2025-04-11 12:36:52] Usuário: Gustavo - Ação: Menu principal: 2222
+[2025-04-11 12:36:57] Usuário: Gustavo - Ação: Menu principal: 0
+[2025-04-11 12:36:57] Usuário: Gustavo - Ação: Encerrou o programa.
+[2025-04-11 12:37:32] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:37:46] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:37:50] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:37:54] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:37:55] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:37:57] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:37:57] Usuário: GUvon - Ação: Visualizou todos os gráficos em conjunto
+[2025-04-11 12:38:03] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:38:22] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:38:33] Usuário: GUvon - Ação: Carregou o arquivo de dados
+[2025-04-11 12:38:33] Usuário: GUvon - Ação: Abriu a documentação
+[2025-04-11 16:25:25] Usuário: Teste Gráfico - Ação: Iniciou o programa.
+[2025-04-11 16:26:13] Usuário: Teste Gráfico - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-11 16:26:13] Usuário: Teste Gráfico - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-11 16:26:13] Usuário: Teste Gráfico - Ação: Realizou análise básica dos dados.
+[2025-04-11 16:26:13] Usuário: Teste Gráfico - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-11 16:26:13] Usuário: Teste Gráfico - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-11 16:26:13] Usuário: Teste Gráfico - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-11 16:26:21] Usuário: Teste Gráfico - Ação: Menu principal: 2
+[2025-04-11 16:26:23] Usuário: Teste Gráfico - Ação: Menu de gráficos: selecionou opção '3'.
+[2025-04-11 16:27:13] Usuário: Teste Gráfico - Ação: Gerou gráfico de pizza (Distribuição das Idades).
