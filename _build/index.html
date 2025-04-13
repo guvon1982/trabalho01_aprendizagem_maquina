@@ -1,0 +1,223 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Índice &mdash; Analisador de Dados  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            Analisador de Dados
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">analisar_dados_basico()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.carregar_dados"><code class="docutils literal notranslate"><span class="pre">carregar_dados()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.consultar_dados_coluna"><code class="docutils literal notranslate"><span class="pre">consultar_dados_coluna()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.gerar_grafico_barras_idade_media_nota"><code class="docutils literal notranslate"><span class="pre">gerar_grafico_barras_idade_media_nota()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.gerar_grafico_dispersao"><code class="docutils literal notranslate"><span class="pre">gerar_grafico_dispersao()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.gerar_grafico_pizza_idades"><code class="docutils literal notranslate"><span class="pre">gerar_grafico_pizza_idades()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.gerar_graficos"><code class="docutils literal notranslate"><span class="pre">gerar_graficos()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.limpar_dados"><code class="docutils literal notranslate"><span class="pre">limpar_dados()</span></code></a></li>
+<li><a class="reference internal" href="#indice">Índice</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Analisador de Dados</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Índice</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <dl class="py function" id="module-analisador_dados">
+<dt class="sig sig-object py" id="analisador_dados.analisar_dados_basico">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">analisar_dados_basico</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#analisar_dados_basico"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.analisar_dados_basico" title="Link to this definition"></a></dt>
+<dd><p>Realiza uma análise básica do DataFrame fornecido.</p>
+<p>Exibe a quantidade total de dados, a distribuição por gênero
+e a quantidade de registros sem informação sobre a educação dos pais.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame a ser analisado.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.carregar_dados">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">carregar_dados</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#carregar_dados"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.carregar_dados" title="Link to this definition"></a></dt>
+<dd><p>Carrega dados de um arquivo CSV ou JSON para um DataFrame do Pandas.</p>
+<p>Pergunta ao usuário o caminho do arquivo e tenta carregá-lo.
+Suporta arquivos nos formatos CSV e JSON.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Um DataFrame contendo os dados carregados,
+ou None se ocorrer algum erro.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>pandas.DataFrame or None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.consultar_dados_coluna">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">consultar_dados_coluna</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#consultar_dados_coluna"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.consultar_dados_coluna" title="Link to this definition"></a></dt>
+<dd><p>Permite ao usuário consultar estatísticas de uma coluna numérica específica do DataFrame
+selecionando por número. Reexibe as opções em caso de erro.</p>
+<p>Lista as colunas numéricas disponíveis com um número correspondente e solicita
+ao usuário o número da coluna para análise. Calcula e exibe as estatísticas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame para consulta.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.gerar_grafico_barras_idade_media_nota">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">gerar_grafico_barras_idade_media_nota</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#gerar_grafico_barras_idade_media_nota"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.gerar_grafico_barras_idade_media_nota" title="Link to this definition"></a></dt>
+<dd><p>Gera um gráfico de barras da idade versus a média das notas intermediárias (midterm_Score).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame contendo os dados.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.gerar_grafico_dispersao">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">gerar_grafico_dispersao</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#gerar_grafico_dispersao"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.gerar_grafico_dispersao" title="Link to this definition"></a></dt>
+<dd><p>Gera um gráfico de dispersão entre as horas de sono e a nota final.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame contendo os dados.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.gerar_grafico_pizza_idades">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">gerar_grafico_pizza_idades</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#gerar_grafico_pizza_idades"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.gerar_grafico_pizza_idades" title="Link to this definition"></a></dt>
+<dd><p>Gera um gráfico de pizza para a distribuição das idades em grupos.</p>
+<p>Grupos de idade: até 17; 18 a 21; 22 a 24; 25 ou mais.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame contendo os dados.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.gerar_graficos">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">gerar_graficos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#gerar_graficos"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.gerar_graficos" title="Link to this definition"></a></dt>
+<dd><p>Apresenta um menu para o usuário escolher qual gráfico gerar.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame contendo os dados.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.limpar_dados">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">limpar_dados</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#limpar_dados"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.limpar_dados" title="Link to this definition"></a></dt>
+<dd><p>Realiza a limpeza dos dados do DataFrame.</p>
+<p>Remove registros com valores nulos na coluna ‘Parent_Education_Level’
+e preenche valores nulos na coluna ‘Attendance (%)’ com a mediana.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – O DataFrame a ser limpo.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>O DataFrame com os dados limpos,
+ou None se nenhum dado foi carregado.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>pandas.DataFrame or None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<section id="indice">
+<h1>Índice<a class="headerlink" href="#indice" title="Link to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, guvon.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
