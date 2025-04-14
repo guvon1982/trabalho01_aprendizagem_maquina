@@ -428,3 +428,287 @@
 [2025-04-11 16:26:21] Usuário: Teste Gráfico - Ação: Menu principal: 2
 [2025-04-11 16:26:23] Usuário: Teste Gráfico - Ação: Menu de gráficos: selecionou opção '3'.
 [2025-04-11 16:27:13] Usuário: Teste Gráfico - Ação: Gerou gráfico de pizza (Distribuição das Idades).
+[2025-04-14 10:59:25] Usuário: Abcde - Ação: Iniciou o programa.
+[2025-04-14 11:00:19] Usuário: Abcde - Ação: Tentou carregar arquivo: C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv
+[2025-04-14 11:00:19] Usuário: Abcde - Ação: Arquivo CSV 'C:\Users\guvon\Documents\IESB\aprendizagem_maquina\trabalho01_aprendizagem_maquina\Students_Grading_Dataset.csv' carregado com sucesso.
+[2025-04-14 11:00:19] Usuário: Abcde - Ação: Realizou análise básica dos dados.
+[2025-04-14 11:00:19] Usuário: Abcde - Ação: Limpou dados: removeu 1025 registros (educação dos pais).
+[2025-04-14 11:00:19] Usuário: Abcde - Ação: Limpou dados: preencheu 0 valores nulos em 'Attendance (%)' com a mediana.
+[2025-04-14 11:00:19] Usuário: Abcde - Ação: Limpou dados: calculou o somatório de 'Attendance (%)'.
+[2025-04-14 11:01:29] Usuário: Abcde - Ação: Menu principal: 1
+[2025-04-14 11:01:32] Usuário: Abcde - Ação: Selecionou opção '1' para consultar dados por coluna.
+[2025-04-14 11:01:32] Usuário: Abcde - Ação: Consultou estatísticas da coluna 'Age'. Média: 21.05, Mediana: 21.00, Moda: [21], Desvio Padrão: 1.99
+[2025-04-14 11:01:36] Usuário: Abcde - Ação: Selecionou opção '5' para consultar dados por coluna.
+[2025-04-14 11:01:36] Usuário: Abcde - Ação: Consultou estatísticas da coluna 'Assignments_Avg'. Média: 75.00, Mediana: 75.10, Moda: [54.95, 60.76, 74.29, 77.34, 83.02], Desvio Padrão: 14.34
+[2025-04-14 11:01:43] Usuário: Abcde - Ação: Selecionou opção '0' para consultar dados por coluna.
+[2025-04-14 11:01:44] Usuário: Abcde - Ação: Menu principal: 2
+[2025-04-14 11:01:46] Usuário: Abcde - Ação: Menu de gráficos: selecionou opção '1'.
+[2025-04-14 11:01:50] Usuário: Abcde - Ação: Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).
+[2025-04-14 11:01:51] Usuário: Abcde - Ação: Menu de gráficos: selecionou opção '2'.
+[2025-04-14 11:01:54] Usuário: Abcde - Ação: Gerou gráfico de barras (Idade vs. Média das Notas Intermediárias).
+[2025-04-14 11:01:55] Usuário: Abcde - Ação: Menu de gráficos: selecionou opção '3'.
+[2025-04-14 11:01:58] Usuário: Abcde - Ação: Gerou gráfico de pizza (Distribuição das Idades).
+[2025-04-14 11:02:02] Usuário: Abcde - Ação: Menu de gráficos: selecionou opção '0'.
+[2025-04-14 11:02:06] Usuário: Abcde - Ação: Menu principal: 3
+[2025-04-14 11:02:06] Usuário: Abcde - Ação: Abriu a página de documentação.
+[2025-04-14 11:02:14] Usuário: Abcde - Ação: Menu principal: 4
+[2025-04-14 11:03:16] Usuário: Abcde - Ação: Menu principal: 0
+[2025-04-14 11:03:16] Usuário: Abcde - Ação: Encerrou o programa.
+[2025-04-14 11:46:38] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:46:39] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:46:39] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:46:39] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:46:39] Usuário: Abc - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 11:46:39] Usuário: Abc - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 11:47:08] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:47:08] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:47:08] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:47:08] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:47:08] Usuário: Abc - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 11:47:08] Usuário: Abc - Ação: Consultou estatísticas da coluna: Quizzes_Avg
+[2025-04-14 11:47:12] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:47:12] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:47:12] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:47:12] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:47:12] Usuário: Abc - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 11:47:12] Usuário: Abc - Ação: Consultou estatísticas da coluna: Stress_Level (1-10)
+[2025-04-14 11:47:16] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:47:16] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:47:16] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:47:16] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:47:16] Usuário: Abc - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:47:16] Usuário: Abc - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 11:47:17] Usuário: Abc - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Selecionou para gerar gráfico: Gráfico de Barras: Idade vs. Média das Notas Intermediárias
+[2025-04-14 11:47:22] Usuário: Abc - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 11:47:24] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:47:24] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:47:24] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:47:24] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:47:24] Usuário: Abc - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:47:24] Usuário: Abc - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 11:47:25] Usuário: Abc - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 11:47:37] Usuário: Abc - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Selecionou para gerar gráfico: Visualizar Todos
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Visualizou todos os gráficos em conjunto
+[2025-04-14 11:47:38] Usuário: Abc - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 11:57:01] Usuário: affg - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:57:01] Usuário: affg - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:57:01] Usuário: affg - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:57:01] Usuário: affg - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:57:01] Usuário: affg - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 11:57:01] Usuário: affg - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 11:57:07] Usuário: affg - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:57:07] Usuário: affg - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:57:07] Usuário: affg - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:57:07] Usuário: affg - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:57:07] Usuário: affg - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:57:07] Usuário: affg - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 11:57:08] Usuário: affg - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 11:57:09] Usuário: affg - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:57:09] Usuário: affg - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:57:09] Usuário: affg - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:57:09] Usuário: affg - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:57:09] Usuário: affg - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:57:09] Usuário: affg - Ação: Selecionou para gerar gráfico: Gráfico de Barras: Idade vs. Média das Notas Intermediárias
+[2025-04-14 11:57:10] Usuário: affg - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 11:57:12] Usuário: affg - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 11:57:12] Usuário: affg - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 11:57:12] Usuário: affg - Ação: Iniciou a limpeza dos dados
+[2025-04-14 11:57:12] Usuário: affg - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 11:57:12] Usuário: affg - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 11:57:12] Usuário: affg - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 11:57:12] Usuário: affg - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:01:29] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:01:29] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:01:29] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:01:29] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:01:29] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:01:29] Usuário: aaaaaa - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:01:35] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:01:35] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:01:35] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:01:35] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:01:35] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:01:35] Usuário: aaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 12:01:36] Usuário: aaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:01:37] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:01:37] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:01:37] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:01:37] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:01:37] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:01:37] Usuário: aaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 12:01:38] Usuário: aaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Barras: Idade vs. Média das Notas Intermediárias
+[2025-04-14 12:01:44] Usuário: aaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Visualizar Logs
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Solicitou visualização de logs entre 2025-04-07 e 2025-04-14
+[2025-04-14 12:01:48] Usuário: aaaaaa - Ação: Disponibilizou botão para download dos logs visualizados
+[2025-04-14 12:01:56] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:01:57] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:01:57] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:01:57] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:01:57] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Exportar Dados
+[2025-04-14 12:01:57] Usuário: aaaaaa - Ação: Exportou dados limpos para CSV e disponibilizou download
+[2025-04-14 12:01:57] Usuário: aaaaaa - Ação: Exportou estatísticas para JSON e disponibilizou download
+[2025-04-14 12:02:01] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:02:01] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:02:01] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:02:01] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:02:01] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:02:01] Usuário: aaaaaa - Ação: Tentou abrir a documentação
+[2025-04-14 12:08:40] Usuário: aaaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:08:40] Usuário: aaaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:08:40] Usuário: aaaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:08:40] Usuário: aaaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:08:40] Usuário: aaaaaaa - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:08:40] Usuário: aaaaaaa - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:08:49] Usuário: aaaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:08:49] Usuário: aaaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:08:49] Usuário: aaaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:08:49] Usuário: aaaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:08:49] Usuário: aaaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:08:49] Usuário: aaaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 12:08:50] Usuário: aaaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 12:08:51] Usuário: aaaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:08:55] Usuário: aaaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:08:55] Usuário: aaaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:08:55] Usuário: aaaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:08:56] Usuário: aaaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:08:56] Usuário: aaaaaaa - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:08:56] Usuário: aaaaaaa - Ação: Tentou abrir a documentação
+[2025-04-14 12:10:31] Usuário: aaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:10:31] Usuário: aaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:10:31] Usuário: aaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:10:31] Usuário: aaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:10:31] Usuário: aaaa - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:10:31] Usuário: aaaa - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:10:36] Usuário: aaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:10:36] Usuário: aaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:10:36] Usuário: aaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:10:36] Usuário: aaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:10:36] Usuário: aaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:10:36] Usuário: aaaa - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 12:10:37] Usuário: aaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:10:38] Usuário: aaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:10:38] Usuário: aaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:10:38] Usuário: aaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:10:38] Usuário: aaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:10:38] Usuário: aaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:10:38] Usuário: aaaa - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 12:10:39] Usuário: aaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:10:41] Usuário: aaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:10:41] Usuário: aaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:10:41] Usuário: aaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:10:41] Usuário: aaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:10:41] Usuário: aaaa - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:10:41] Usuário: aaaa - Ação: Tentou abrir a documentação
+[2025-04-14 12:16:57] Usuário: adert - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:16:57] Usuário: adert - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:16:57] Usuário: adert - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:16:57] Usuário: adert - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:16:57] Usuário: adert - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:16:57] Usuário: adert - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:17:01] Usuário: adert - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:17:01] Usuário: adert - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:17:01] Usuário: adert - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:17:01] Usuário: adert - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:17:01] Usuário: adert - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:17:01] Usuário: adert - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 12:17:01] Usuário: adert - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:17:02] Usuário: adert - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:17:02] Usuário: adert - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:17:02] Usuário: adert - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:17:02] Usuário: adert - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:17:02] Usuário: adert - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:17:02] Usuário: adert - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 12:17:03] Usuário: adert - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:17:04] Usuário: adert - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:17:04] Usuário: adert - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:17:04] Usuário: adert - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:17:04] Usuário: adert - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:17:04] Usuário: adert - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:17:04] Usuário: adert - Ação: Selecionou para gerar gráfico: Visualizar Todos
+[2025-04-14 12:17:05] Usuário: adert - Ação: Visualizou todos os gráficos em conjunto
+[2025-04-14 12:17:05] Usuário: adert - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:17:11] Usuário: adert - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:17:11] Usuário: adert - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:17:11] Usuário: adert - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:17:11] Usuário: adert - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:17:11] Usuário: adert - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:17:11] Usuário: adert - Ação: Tentou abrir a documentação
+[2025-04-14 12:17:11] Usuário: adert - Ação: Erro inesperado: name 'caminho_relativo' is not defined
+[2025-04-14 12:17:57] Usuário: sdfsdsf - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:17:57] Usuário: sdfsdsf - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:17:57] Usuário: sdfsdsf - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:17:57] Usuário: sdfsdsf - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:17:57] Usuário: sdfsdsf - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:17:57] Usuário: sdfsdsf - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:18:02] Usuário: sdfsdsf - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:18:02] Usuário: sdfsdsf - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:18:02] Usuário: sdfsdsf - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:18:02] Usuário: sdfsdsf - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:18:02] Usuário: sdfsdsf - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:18:02] Usuário: sdfsdsf - Ação: Tentou abrir a documentação
+[2025-04-14 12:23:14] Usuário: aaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:23:14] Usuário: aaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:23:14] Usuário: aaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:23:14] Usuário: aaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:23:14] Usuário: aaaa - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:23:14] Usuário: aaaa - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:23:17] Usuário: aaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:23:17] Usuário: aaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:23:17] Usuário: aaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:23:17] Usuário: aaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:23:17] Usuário: aaaa - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:23:17] Usuário: aaaa - Ação: Tentou abrir a documentação
+[2025-04-14 12:25:20] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:25:20] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:25:20] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:25:20] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:25:20] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Consultar dados por coluna
+[2025-04-14 12:25:20] Usuário: aaaaaa - Ação: Consultou estatísticas da coluna: Age
+[2025-04-14 12:25:24] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:25:24] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:25:24] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:25:24] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:25:24] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Abrir Documentação
+[2025-04-14 12:25:24] Usuário: aaaaaa - Ação: Tentou abrir a documentação
+[2025-04-14 12:25:39] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:25:39] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:25:39] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:25:39] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:25:39] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:25:39] Usuário: aaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Dispersão: Horas de Sono vs. Nota Final
+[2025-04-14 12:25:40] Usuário: aaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Iniciou upload do arquivo: Students_Grading_Dataset.csv
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Carregou o arquivo de dados: Students_Grading_Dataset.csv
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Iniciou a limpeza dos dados
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Concluiu a limpeza. Removidos: 1025, Nulos preenchidos ('Attendance %'): 0
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Selecionou a opção do menu: Gerar gráficos
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Selecionou para gerar gráfico: Gráfico de Pizza: Distribuição das Idades
+[2025-04-14 12:25:42] Usuário: aaaaaa - Ação: Disponibilizou botões para download dos gráficos gerados

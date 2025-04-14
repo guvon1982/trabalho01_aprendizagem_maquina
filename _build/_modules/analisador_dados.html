@@ -69,6 +69,33 @@
 <span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">webbrowser</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span>
+
+<div class="viewcode-block" id="obter_nome_usuario">
+<a class="viewcode-back" href="../index.html#analisador_dados.obter_nome_usuario">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">obter_nome_usuario</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Solicita o nome do usuário e retorna-o após validação básica.&quot;&quot;&quot;</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">nome</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Por favor, digite seu nome (ao menos 3 caracteres): &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">nomes</span> <span class="o">=</span> <span class="n">nome</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">nomes</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="nb">all</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">n</span><span class="o">.</span><span class="n">isalpha</span><span class="p">()</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nomes</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">nome</span>
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">nome</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">3</span> <span class="ow">and</span> <span class="n">nome</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
+            <span class="k">return</span> <span class="n">nome</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Nome inválido. Por favor, digite um nome com ao menos 3 caracteres alfabéticos.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="registrar_acao">
+<a class="viewcode-back" href="../index.html#analisador_dados.registrar_acao">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="n">acao</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Registra a ação do usuário em um arquivo de log.&quot;&quot;&quot;</span>
+    <span class="n">timestamp</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">&quot;%Y-%m-</span><span class="si">%d</span><span class="s2"> %H:%M:%S&quot;</span><span class="p">)</span>
+    <span class="n">log_mensagem</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;[</span><span class="si">{</span><span class="n">timestamp</span><span class="si">}</span><span class="s2">] Usuário: </span><span class="si">{</span><span class="n">nome_usuario</span><span class="si">}</span><span class="s2"> - Ação: </span><span class="si">{</span><span class="n">acao</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;registro_acoes.log&quot;</span><span class="p">,</span> <span class="s2">&quot;a&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">arquivo_log</span><span class="p">:</span>
+        <span class="n">arquivo_log</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">log_mensagem</span><span class="p">)</span></div>
+
 
 <div class="viewcode-block" id="carregar_dados">
 <a class="viewcode-back" href="../index.html#analisador_dados.carregar_dados">[docs]</a>
@@ -86,27 +113,35 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
         <span class="n">caminho_arquivo</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Por favor, digite o caminho do arquivo (CSV ou JSON): &quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Tentou carregar arquivo: </span><span class="si">{</span><span class="n">caminho_arquivo</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">caminho_arquivo</span><span class="p">):</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: O caminho do arquivo especificado não existe.&quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Erro ao carregar: arquivo não encontrado.&quot;</span><span class="p">)</span>
             <span class="k">continue</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">caminho_arquivo</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.csv&#39;</span><span class="p">):</span>
                 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">caminho_arquivo</span><span class="p">)</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Arquivo CSV carregado com sucesso!&quot;</span><span class="p">)</span>
+                <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Arquivo CSV &#39;</span><span class="si">{</span><span class="n">caminho_arquivo</span><span class="si">}</span><span class="s2">&#39; carregado com sucesso.&quot;</span><span class="p">)</span>
                 <span class="k">return</span> <span class="n">df</span>
             <span class="k">elif</span> <span class="n">caminho_arquivo</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.json&#39;</span><span class="p">):</span>
                 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="n">caminho_arquivo</span><span class="p">)</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Arquivo JSON carregado com sucesso!&quot;</span><span class="p">)</span>
+                <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Arquivo JSON &#39;</span><span class="si">{</span><span class="n">caminho_arquivo</span><span class="si">}</span><span class="s2">&#39; carregado com sucesso.&quot;</span><span class="p">)</span>
                 <span class="k">return</span> <span class="n">df</span>
             <span class="k">else</span><span class="p">:</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Formato de arquivo não suportado. Por favor, use um arquivo CSV ou JSON.&quot;</span><span class="p">)</span>
+                <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Erro ao carregar: formato de arquivo não suportado.&quot;</span><span class="p">)</span>
                 <span class="k">continue</span>
         <span class="k">except</span> <span class="n">pd</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">EmptyDataError</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: O arquivo está vazio.&quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Erro ao carregar: arquivo vazio.&quot;</span><span class="p">)</span>
         <span class="k">except</span> <span class="n">pd</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">ParserError</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Falha ao analisar o arquivo. Verifique se o formato está correto.&quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Erro ao carregar: falha na análise do arquivo.&quot;</span><span class="p">)</span>
         <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Ocorreu um erro inesperado: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Erro ao carregar: erro inesperado - </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">None</span></div>
 
 
@@ -133,8 +168,10 @@
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Distribuição por gênero:&quot;</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">quantidade_generos</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Quantidade de registros sem informação sobre a educação dos pais (Parent_Education_Level): </span><span class="si">{</span><span class="n">registros_sem_educacao_pais</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Realizou análise básica dos dados.&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Nenhum dado carregado para analisar.&quot;</span><span class="p">)</span></div>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Nenhum dado carregado para analisar.&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Tentou realizar análise básica, mas não há dados carregados.&quot;</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="limpar_dados">
@@ -157,19 +194,27 @@
 <span class="sd">        ou None se nenhum dado foi carregado.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">df</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">registros_antes</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
         <span class="n">df_limpo</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Parent_Education_Level&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Registros removidos devido à falta de informação na educação dos pais: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nb">len</span><span class="p">(</span><span class="n">df_limpo</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">registros_removidos_educacao</span> <span class="o">=</span> <span class="n">registros_antes</span> <span class="o">-</span> <span class="nb">len</span><span class="p">(</span><span class="n">df_limpo</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Registros removidos devido à falta de informação na educação dos pais: </span><span class="si">{</span><span class="n">registros_removidos_educacao</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Limpou dados: removeu </span><span class="si">{</span><span class="n">registros_removidos_educacao</span><span class="si">}</span><span class="s2"> registros (educação dos pais).&quot;</span><span class="p">)</span>
 
         <span class="n">mediana_attendance</span> <span class="o">=</span> <span class="n">df_limpo</span><span class="p">[</span><span class="s1">&#39;Attendance (%)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
+        <span class="n">nulos_attendance_antes</span> <span class="o">=</span> <span class="n">df_limpo</span><span class="p">[</span><span class="s1">&#39;Attendance (%)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
         <span class="n">df_limpo</span><span class="p">[</span><span class="s1">&#39;Attendance (%)&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_limpo</span><span class="p">[</span><span class="s1">&#39;Attendance (%)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">mediana_attendance</span><span class="p">)</span>
+        <span class="n">nulos_attendance_depois</span> <span class="o">=</span> <span class="n">df_limpo</span><span class="p">[</span><span class="s1">&#39;Attendance (%)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Valores nulos na coluna &#39;Attendance (%)&#39; preenchidos com a mediana: </span><span class="si">{</span><span class="n">mediana_attendance</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">%&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Limpou dados: preencheu </span><span class="si">{</span><span class="n">nulos_attendance_antes</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">nulos_attendance_depois</span><span class="si">}</span><span class="s2"> valores nulos em &#39;Attendance (%)&#39; com a mediana.&quot;</span><span class="p">)</span>
 
         <span class="n">soma_attendance</span> <span class="o">=</span> <span class="n">df_limpo</span><span class="p">[</span><span class="s1">&#39;Attendance (%)&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Somatório da coluna &#39;Attendance (%)&#39;: </span><span class="si">{</span><span class="n">soma_attendance</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">%&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Limpou dados: calculou o somatório de &#39;Attendance (%)&#39;.&quot;</span><span class="p">)</span>
 
         <span class="k">return</span> <span class="n">df_limpo</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Nenhum dado carregado para limpar.&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Tentou limpar dados, mas não há dados carregados.&quot;</span><span class="p">)</span>
         <span class="k">return</span> <span class="kc">None</span></div>
 
 
@@ -191,6 +236,7 @@
         <span class="n">colunas_numericas</span> <span class="o">=</span> <span class="p">[</span><span class="n">col</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">api</span><span class="o">.</span><span class="n">types</span><span class="o">.</span><span class="n">is_numeric_dtype</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">])]</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">colunas_numericas</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Não há colunas numéricas disponíveis para análise.&quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Tentou consultar dados por coluna, mas não há colunas numéricas.&quot;</span><span class="p">)</span>
             <span class="k">return</span>
 
         <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
@@ -200,17 +246,23 @@
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;0. Sair&quot;</span><span class="p">)</span>
 
             <span class="n">opcao</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Digite o número da coluna para análise: &quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Selecionou opção &#39;</span><span class="si">{</span><span class="n">opcao</span><span class="si">}</span><span class="s2">&#39; para consultar dados por coluna.&quot;</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">opcao</span> <span class="o">==</span> <span class="s1">&#39;0&#39;</span><span class="p">:</span>
                 <span class="k">break</span>
             <span class="k">try</span><span class="p">:</span>
                 <span class="n">indice_coluna</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">opcao</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
                 <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">indice_coluna</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">colunas_numericas</span><span class="p">):</span>
                     <span class="n">nome_coluna</span> <span class="o">=</span> <span class="n">colunas_numericas</span><span class="p">[</span><span class="n">indice_coluna</span><span class="p">]</span>
+                    <span class="n">media</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+                    <span class="n">mediana</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
+                    <span class="n">moda</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                    <span class="n">desvio_padrao</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
                     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">--- Estatísticas da coluna &#39;</span><span class="si">{</span><span class="n">nome_coluna</span><span class="si">}</span><span class="s2">&#39; ---&quot;</span><span class="p">)</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Média: </span><span class="si">{</span><span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mediana: </span><span class="si">{</span><span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moda: </span><span class="si">{</span><span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">mode</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Desvio Padrão: </span><span class="si">{</span><span class="n">df</span><span class="p">[</span><span class="n">nome_coluna</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Média: </span><span class="si">{</span><span class="n">media</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mediana: </span><span class="si">{</span><span class="n">mediana</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Moda: </span><span class="si">{</span><span class="n">moda</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Desvio Padrão: </span><span class="si">{</span><span class="n">desvio_padrao</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Consultou estatísticas da coluna &#39;</span><span class="si">{</span><span class="n">nome_coluna</span><span class="si">}</span><span class="s2">&#39;. Média: </span><span class="si">{</span><span class="n">media</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">, Mediana: </span><span class="si">{</span><span class="n">mediana</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">, Moda: </span><span class="si">{</span><span class="n">moda</span><span class="si">}</span><span class="s2">, Desvio Padrão: </span><span class="si">{</span><span class="n">desvio_padrao</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Opção inválida. Por favor, digite um número da lista ou 0 para sair.&quot;</span><span class="p">)</span>
             <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
@@ -237,8 +289,10 @@
         <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Nota Final&#39;</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Gerou gráfico de dispersão (Horas de Sono vs. Nota Final).&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Colunas &#39;Sleep_Hours_per_Night&#39; ou &#39;Final_Score&#39; não encontradas para o gráfico de dispersão.&quot;</span><span class="p">)</span></div>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Colunas &#39;Sleep_Hours_per_Night&#39; ou &#39;Final_Score&#39; não encontradas para o gráfico de dispersão.&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Erro ao gerar gráfico de dispersão: colunas não encontradas.&quot;</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="gerar_grafico_barras_idade_media_nota">
@@ -261,8 +315,10 @@
         <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">media_notas_por_idade</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">&#39;--&#39;</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Gerou gráfico de barras (Idade vs. Média das Notas Intermediárias).&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Colunas &#39;Age&#39; ou &#39;Midterm_Score&#39; não encontradas para o gráfico de barras.&quot;</span><span class="p">)</span></div>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Colunas &#39;Age&#39; ou &#39;Midterm_Score&#39; não encontradas para o gráfico de barras.&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Erro ao gerar gráfico de barras: colunas não encontradas.&quot;</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="gerar_grafico_pizza_idades">
@@ -278,7 +334,7 @@
 <span class="sd">        O DataFrame contendo os dados.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">df</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="s1">&#39;Age&#39;</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
-        <span class="n">bins</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">)]</span>
+        <span class="n">bins</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;inf&#39;</span><span class="p">)]</span>
         <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Até 17&#39;</span><span class="p">,</span> <span class="s1">&#39;18 a 21&#39;</span><span class="p">,</span> <span class="s1">&#39;22 a 24&#39;</span><span class="p">,</span> <span class="s1">&#39;25 ou mais&#39;</span><span class="p">]</span>
         <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Grupo_Idade&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">],</span> <span class="n">bins</span><span class="o">=</span><span class="n">bins</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
         <span class="n">distribuicao_idades</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Grupo_Idade&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -287,8 +343,10 @@
         <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Gráfico de Pizza: Distribuição das Idades&#39;</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;equal&#39;</span><span class="p">)</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Gerou gráfico de pizza (Distribuição das Idades).&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Coluna &#39;Age&#39; não encontrada para o gráfico de pizza.&quot;</span><span class="p">)</span></div>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Coluna &#39;Age&#39; não encontrada para o gráfico de pizza.&quot;</span><span class="p">)</span>
+        <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Erro ao gerar gráfico de pizza: coluna não encontrada.&quot;</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="gerar_graficos">
@@ -310,6 +368,7 @@
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;0. Voltar ao menu principal&quot;</span><span class="p">)</span>
 
             <span class="n">opcao</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Digite o número do gráfico desejado: &quot;</span><span class="p">)</span>
+            <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Menu de gráficos: selecionou opção &#39;</span><span class="si">{</span><span class="n">opcao</span><span class="si">}</span><span class="s2">&#39;.&quot;</span><span class="p">)</span>
 
             <span class="k">if</span> <span class="n">opcao</span> <span class="o">==</span> <span class="s1">&#39;1&#39;</span><span class="p">:</span>
                 <span class="n">gerar_grafico_dispersao</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -325,31 +384,73 @@
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Erro: Nenhum dado carregado para gerar gráficos.&quot;</span><span class="p">)</span></div>
 
 
+<div class="viewcode-block" id="abrir_documentacao_html">
+<a class="viewcode-back" href="../index.html#analisador_dados.abrir_documentacao_html">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">abrir_documentacao_html</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Abre a página index.html da documentação no navegador Chrome.&quot;&quot;&quot;</span>
+    <span class="n">caminho_documentacao</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">&quot;_build/index.html&quot;</span><span class="p">)</span>
+    <span class="c1"># Registra o Chrome - ajuste o caminho se necessário</span>
+    <span class="n">webbrowser</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s1">&#39;chrome&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">webbrowser</span><span class="o">.</span><span class="n">BackgroundBrowser</span><span class="p">(</span><span class="s2">&quot;C:/Program Files/Google/Chrome/Application/chrome.exe&quot;</span><span class="p">))</span>
+    <span class="n">webbrowser</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;chrome&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">open_new_tab</span><span class="p">(</span><span class="n">caminho_documentacao</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Abrindo documentação em: </span><span class="si">{</span><span class="n">caminho_documentacao</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Abriu a página de documentação.&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="visualizar_logs">
+<a class="viewcode-back" href="../index.html#analisador_dados.visualizar_logs">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">visualizar_logs</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Exibe o conteúdo do arquivo de log.&quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;registro_acoes.log&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">arquivo_log</span><span class="p">:</span>
+            <span class="n">conteudo_log</span> <span class="o">=</span> <span class="n">arquivo_log</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">--- Conteúdo do Arquivo de Log ---&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">conteudo_log</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Erro: O arquivo de log &#39;registro_acoes.log&#39; não foi encontrado.&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Ocorreu um erro ao ler o arquivo de log: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></div>
+
+
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">nome_usuario</span> <span class="o">=</span> <span class="n">obter_nome_usuario</span><span class="p">()</span>
+    <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Iniciou o programa.&quot;</span><span class="p">)</span>
     <span class="n">dados</span> <span class="o">=</span> <span class="n">carregar_dados</span><span class="p">()</span>
     <span class="k">if</span> <span class="n">dados</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Primeiras linhas dos dados carregados:&quot;</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">dados</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-        <span class="n">analisar_dados_basico</span><span class="p">(</span><span class="n">dados</span><span class="p">)</span>  <span class="c1"># Exibe a análise básica</span>
-        <span class="n">dados_limpos</span> <span class="o">=</span> <span class="n">limpar_dados</span><span class="p">(</span><span class="n">dados</span><span class="o">.</span><span class="n">copy</span><span class="p">())</span>
+        <span class="n">analisar_dados_basico</span><span class="p">(</span><span class="n">dados</span><span class="p">)</span>  <span class="c1"># Exibe a análise básica UMA VEZ</span>
+        <span class="n">dados_limpos</span> <span class="o">=</span> <span class="n">limpar_dados</span><span class="p">(</span><span class="n">dados</span><span class="o">.</span><span class="n">copy</span><span class="p">())</span> <span class="c1"># Limpa os dados UMA VEZ</span>
         <span class="k">if</span> <span class="n">dados_limpos</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Primeiras linhas dos dados limpos:&quot;</span><span class="p">)</span>
             <span class="nb">print</span><span class="p">(</span><span class="n">dados_limpos</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+
+            <span class="c1"># Exibe a distribuição de gênero APÓS a limpeza dos dados</span>
+            <span class="n">distribuicao_genero_limpo</span> <span class="o">=</span> <span class="n">dados_limpos</span><span class="p">[</span><span class="s1">&#39;Gender&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">--- Distribuição de gênero após a limpeza dos dados ---&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">distribuicao_genero_limpo</span><span class="p">)</span>
 
             <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">--- Menu Principal ---&quot;</span><span class="p">)</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;1. Consultar dados por coluna&quot;</span><span class="p">)</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;2. Gerar gráficos&quot;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;3. Abrir documentação&quot;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;4. Visualizar Logs&quot;</span><span class="p">)</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;0. Encerrar o programa&quot;</span><span class="p">)</span>
 
                 <span class="n">opcao_principal</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Digite o número da opção desejada: &quot;</span><span class="p">)</span>
+                <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Menu principal: </span><span class="si">{</span><span class="n">opcao_principal</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 
                 <span class="k">if</span> <span class="n">opcao_principal</span> <span class="o">==</span> <span class="s1">&#39;1&#39;</span><span class="p">:</span>
                     <span class="n">consultar_dados_coluna</span><span class="p">(</span><span class="n">dados_limpos</span><span class="p">)</span>
                 <span class="k">elif</span> <span class="n">opcao_principal</span> <span class="o">==</span> <span class="s1">&#39;2&#39;</span><span class="p">:</span>
                     <span class="n">gerar_graficos</span><span class="p">(</span><span class="n">dados_limpos</span><span class="p">)</span>
+                <span class="k">elif</span> <span class="n">opcao_principal</span> <span class="o">==</span> <span class="s1">&#39;3&#39;</span><span class="p">:</span>
+                    <span class="n">abrir_documentacao_html</span><span class="p">()</span>
+                <span class="k">elif</span> <span class="n">opcao_principal</span> <span class="o">==</span> <span class="s1">&#39;4&#39;</span><span class="p">:</span>
+                    <span class="n">visualizar_logs</span><span class="p">()</span>
                 <span class="k">elif</span> <span class="n">opcao_principal</span> <span class="o">==</span> <span class="s1">&#39;0&#39;</span><span class="p">:</span>
-                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Encerrando o programa.&quot;</span><span class="p">)</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Encerrando o programa. Até a próxima!&quot;</span><span class="p">)</span>
+                    <span class="n">registrar_acao</span><span class="p">(</span><span class="n">nome_usuario</span><span class="p">,</span> <span class="s2">&quot;Encerrou o programa.&quot;</span><span class="p">)</span>
                     <span class="k">break</span>
                 <span class="k">else</span><span class="p">:</span>
                     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Opção inválida. Por favor, digite um número da lista.&quot;</span><span class="p">)</span>

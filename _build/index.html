@@ -42,7 +42,8 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">analisar_dados_basico()</span></code></a></li>
+<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">abrir_documentacao_html()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.analisar_dados_basico"><code class="docutils literal notranslate"><span class="pre">analisar_dados_basico()</span></code></a></li>
 <li><a class="reference internal" href="#analisador_dados.carregar_dados"><code class="docutils literal notranslate"><span class="pre">carregar_dados()</span></code></a></li>
 <li><a class="reference internal" href="#analisador_dados.consultar_dados_coluna"><code class="docutils literal notranslate"><span class="pre">consultar_dados_coluna()</span></code></a></li>
 <li><a class="reference internal" href="#analisador_dados.gerar_grafico_barras_idade_media_nota"><code class="docutils literal notranslate"><span class="pre">gerar_grafico_barras_idade_media_nota()</span></code></a></li>
@@ -50,6 +51,9 @@
 <li><a class="reference internal" href="#analisador_dados.gerar_grafico_pizza_idades"><code class="docutils literal notranslate"><span class="pre">gerar_grafico_pizza_idades()</span></code></a></li>
 <li><a class="reference internal" href="#analisador_dados.gerar_graficos"><code class="docutils literal notranslate"><span class="pre">gerar_graficos()</span></code></a></li>
 <li><a class="reference internal" href="#analisador_dados.limpar_dados"><code class="docutils literal notranslate"><span class="pre">limpar_dados()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.obter_nome_usuario"><code class="docutils literal notranslate"><span class="pre">obter_nome_usuario()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.registrar_acao"><code class="docutils literal notranslate"><span class="pre">registrar_acao()</span></code></a></li>
+<li><a class="reference internal" href="#analisador_dados.visualizar_logs"><code class="docutils literal notranslate"><span class="pre">visualizar_logs()</span></code></a></li>
 <li><a class="reference internal" href="#indice">Índice</a></li>
 </ul>
 </div>
@@ -78,6 +82,12 @@
            <div itemprop="articleBody">
              
   <dl class="py function" id="module-analisador_dados">
+<dt class="sig sig-object py" id="analisador_dados.abrir_documentacao_html">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">abrir_documentacao_html</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#abrir_documentacao_html"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.abrir_documentacao_html" title="Link to this definition"></a></dt>
+<dd><p>Abre a página index.html da documentação no navegador Chrome.</p>
+</dd></dl>
+
+<dl class="py function">
 <dt class="sig sig-object py" id="analisador_dados.analisar_dados_basico">
 <span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">analisar_dados_basico</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#analisar_dados_basico"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.analisar_dados_basico" title="Link to this definition"></a></dt>
 <dd><p>Realiza uma análise básica do DataFrame fornecido.</p>
@@ -184,6 +194,24 @@ ou None se nenhum dado foi carregado.</p>
 <dd class="field-odd"><p>pandas.DataFrame or None</p>
 </dd>
 </dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.obter_nome_usuario">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">obter_nome_usuario</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#obter_nome_usuario"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.obter_nome_usuario" title="Link to this definition"></a></dt>
+<dd><p>Solicita o nome do usuário e retorna-o após validação básica.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.registrar_acao">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">registrar_acao</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nome_usuario</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">acao</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#registrar_acao"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.registrar_acao" title="Link to this definition"></a></dt>
+<dd><p>Registra a ação do usuário em um arquivo de log.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="analisador_dados.visualizar_logs">
+<span class="sig-prename descclassname"><span class="pre">analisador_dados.</span></span><span class="sig-name descname"><span class="pre">visualizar_logs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/analisador_dados.html#visualizar_logs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#analisador_dados.visualizar_logs" title="Link to this definition"></a></dt>
+<dd><p>Exibe o conteúdo do arquivo de log.</p>
 </dd></dl>
 
 <section id="indice">
